@@ -1,9 +1,12 @@
 {
-  "name": "@amit/flexslider", 
-  "version": "1.0.0",
-  "main": "src/index.js", 
+  "name": "amit-flexslider",
+  "version": "1.0.4",
+  "main": "src/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
-    "build": "webpack --mode production", 
+    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -12,19 +15,19 @@
     "flexslider",
     "javascript"
   ],
-  "author": "amit", 
-  "license": "MIT", 
+  "author": "amit",
+  "license": "MIT",
   "description": "A customizable, lightweight slider library for web projects.",
   "files": [
-    "src/", 
+    "src/",
     "README.md"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/flexslider.git" 
+    "url": "git+https://github.com/AmitAmbi/amit-flexslider.git"
   },
-  "homepage": "https://github.com/yourusername/flexslider#readme",
+  "homepage": "https://github.com/AmitAmbi/amit-flexslider.git#readme",
   "bugs": {
-    "url": "https://github.com/yourusername/flexslider/issues" 
+    "url": "https://github.com/AmitAmbi/amit-flexslider.git?bugs"
   }
 }
